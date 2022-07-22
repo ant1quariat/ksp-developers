@@ -1,0 +1,6 @@
+[Version] => 0.1
+[LibName] => KSP Lib
+[LibAuthor] => Antiquariat
+[LibLocate] => ru-RU
+[LibPath] => null
+[LibNamespace] => KSP\KspLib

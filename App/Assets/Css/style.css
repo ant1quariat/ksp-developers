@@ -1,0 +1,119 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px auto;
+}
+.fd-5 {
+    font-weight: 400;
+    text-align: center;
+}
+.user-info {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5rem;
+        text-align: center;
+        color: white;
+
+    background-color: dodgerblue;
+
+    padding: 10px 15px;
+
+    border: 1px solid black;
+        border-radius: 10px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+    width: 600px;
+
+    margin-bottom: 15px;
+
+}
+.search-form {
+    margin: 10px auto;
+}
+.search-input {
+    width: 250px;
+    height: 35px;
+
+    border: 1px solid black;
+        border-radius: 10px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.search-submit {
+    height: 35px;
+    padding: 0 15px;
+
+    background-color: dodgerblue;
+        color: lightblue;
+        border-color: deepskyblue;
+
+    border: 1px solid;
+        border-radius: 10px;
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+}
+.search-submit:hover {
+    color: darkblue;
+    cursor: pointer;
+
+    border: 1px solid;
+        border-radius: 10px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+}
+.alert {
+    border: 1px solid;
+        border-radius: 15px;
+        border-color: black;
+
+    padding: 15px 25px;
+    margin: 15px auto;
+}
+.alert-danger {
+    color: lightgray;
+        background-color: lightcoral;
+        border-color: darkred;
+}
+.btn {
+    padding: 10px 15px;
+    text-decoration: none;
+
+    background-color: dodgerblue;
+    color: lightblue;
+    border-color: deepskyblue;
+
+    border: 1px solid;
+    border-radius: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.btn:hover {
+    color: darkblue;
+    cursor: pointer;
+
+    border: 1px solid;
+    border-radius: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
